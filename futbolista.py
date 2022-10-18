@@ -5,8 +5,7 @@ class Futbolista(Persona, Deportista):
     _listaFutbolistas = []
     
     def __str__(self):
-        x= f'Mi nombre es {self.getNombre()} soy profesional en el deporte {self.getDeporte()} Tengo {self.getEdad()} años de edad y llevo {self.getAñosPracticando()} años en el deporte'
-        return x
+        return f'Mi nombre es {self.getNombre()} soy profesional en el deporte {self.getDeporte()} Tengo {self.getEdad()} años de edad y llevo {self.getAñosPracticando()} años en el deporte'
 
 
     def __init__(self, name, age, alt, sex, años, golesMarc, tarjetasRojas, habilFoot):
